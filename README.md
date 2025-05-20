@@ -17,6 +17,25 @@ The dataset is provided as a CSV file with the following columns:
 - `model`: The candidate model that answered the question (string)
 - `eval`: The human rating on whether the candidate model's answer was correct or not (1 = correct, 0 = incorrect)
 
+## Models Used:
+- Claude-3.5-Sonnet
+- Mixtral-8x7B-Instruct
+- Llama-3-70B-Instruct
+- Llama-3-8B-Instruct
+- Phi-3-mini
+
+## Datasets Used:
+| Dataset      | No. of questions |
+|--------------|------------------|
+| AdversarialQA| 120              |
+| SQuAD        | 120              |
+| MedQA        | 120              |
+| HotpotQA     | 120              |
+| TriviaQA     | 120              |
+| Total        | 600              |
+
+
+   
 ## Usage
 
 ### Basic Usage
